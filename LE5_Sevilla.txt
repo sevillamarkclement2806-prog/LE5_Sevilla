@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main() {
+    int num;
+    int sum = 0;
+    int count;
+    
+    printf("Enter a positive number\n");
+
+    for (count = 0; count < 4; count++) {
+        printf("Enter a Number: ");
+        scanf("%d", &num);
+
+        if (num > 0) {
+            sum+=num;
+        }
+        else { 
+
+            break;
+        }
+ 
+    }
+    
+    printf("Total sum is: %d\n", sum);
+
+
+}
+    
